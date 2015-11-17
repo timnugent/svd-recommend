@@ -3,7 +3,7 @@ CXXFLAGS=-O3 --std=c++11 -Wall -Wextra -Wno-unused-variable -Wno-unused-paramete
 LIBS=-lboost_thread -lboost_system
 INC=-I.
 THREADS=-DTHREADS
-SOURCES=src/svd_collabfilt.cpp src/kale.cpp
+SOURCES=src/svd_collabfilt.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=bin/svd_collabfilt
 
