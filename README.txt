@@ -1,7 +1,7 @@
 Incremental Singular Value Decomposition-like Matrix Factorization for Collaborative Filtering using Stochastic Gradient Descent
 -------------------------------------------------------------------------------------------------------------------------------- 
 
-Based on Simon Funk's Netflix implementation [1-4] which process one latent feature at a time. Uses L2 regularization to control the magnitude of the user-feature (P) and item-feature (Q) matrices, based on [3]. General SVD background can be found at [5]. Optional learning rate decay, e.g. [8].
+Based on Simon Funk's Netflix implementation [1-4] which processes one latent feature at a time. Uses L2 regularization to control the magnitude of the user-feature (P) and item-feature (Q) matrices, based on [3]. General SVD background can be found at [5]. Optional learning rate decay, e.g. [8].
 
 Compile
 -------
