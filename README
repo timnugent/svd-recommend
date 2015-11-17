@@ -19,15 +19,17 @@ Sample Output
 -------------
 
 bin/svd_collabfilt -o data/predictions.tsv -i data/training.tsv
-Input file:   data/training.tsv
-Output file:  data/predictions.tsv
-Predictions:  25
-Threads:      4
+Input file:      data/training.tsv
+Output file:     data/predictions.tsv
+Predictions:     25
+Latent features: 240
+Threads:         4
 Read file data/training.tsv (282931 entries)
 Users with data: 33217
 Items with data: 8319
+Writing user-feature matrix data/P_demo.mat ...
+Writing item-feature matrix data/Q_demo.mat ...
 Writing predictions file data/predictions.tsv ...
-
 
 The predictions file contains the top 25 recommendations. First column is the user, then the article, then the rating.
 
